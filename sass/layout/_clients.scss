@@ -1,0 +1,45 @@
+.clients {
+  padding-top: var(--section-ptb);
+  padding-bottom: var(--section-ptb);
+}
+
+.client-set {
+  margin-top: var(--section-mrg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-set__item {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.client-set__link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
+}
+
+.client-set__icon {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .client-set__link:hover & {
+    fill: var(--accent-color);
+  }
+}
