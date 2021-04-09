@@ -56,6 +56,39 @@ img {
   overflow: hidden;
 }
 
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 448px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .about .container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .modal-btn {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
@@ -85,6 +118,35 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
+
+.logo__text {
+  color: #000000;
+  margin-right: 90px;
+}
+
+.logo__text--inverse {
+  color: var(--secondary-text-color);
+}
+
+.header {
+  padding: 16px 15px;
+}
+
+.navigation__list {
+  display: none;
+}
+
+.contact-set {
+  display: none;
 }
 
 .hero {
