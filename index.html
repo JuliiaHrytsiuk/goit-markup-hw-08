@@ -25,7 +25,7 @@
           <a class="logo link" href="./index.html"
             >Web<span class="logo__text">Studio</span></a
           >
-          <button type="button" class="burger-btn">
+          <button type="button" class="burger-btn" data-menu-button>
             <svg class="burger-icon">
               <use href="./images/symbol-defs.svg#icon-menu"></use>
             </svg>
@@ -68,6 +68,44 @@
               </svg>
               +38 096 111 11 11</a
             >
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <button type="button" class="mobile-menu__button" data-menu-close>
+          <svg class="mobile-menu__icon">
+            <use
+              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu__navigation list">
+          <li class="mobile-menu__item">
+            <a href="./index.html" class="mobile-menu__link link">Cтудия</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link link">Портфолио</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="" class="mobile-menu__link link">Контакты</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu__contacts list">
+          <li class="mobile-menu__tel link">+38 096 111 11 11</li>
+          <li class="mobile-menu__mail link">info@devstudio.com</li>
+        </ul>
+        <ul class="mobile-menu__social list">
+          <li class="mobile-menu__network">
+            <a href="" class="mobile-menu__network-link link">Instagram</a>
+          </li>
+          <li class="mobile-menu__network">
+            <a href="" class="mobile-menu__network-link link">Twitter</a>
+          </li>
+          <li class="mobile-menu__network">
+            <a href="" class="mobile-menu__network-link link">Facebook</a>
+          </li>
+          <li class="mobile-menu__network">
+            <a href="" class="mobile-menu__network-link link">LinkedIn</a>
           </li>
         </ul>
       </div>
@@ -638,6 +676,7 @@
     </div> -->
 
     <!--JAWA SCRIPTS-->
+    <script src="./js/mobile-menu.js"></script>
     <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
