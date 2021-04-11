@@ -124,7 +124,6 @@ img {
 
 .logo__text {
   color: #000000;
-  margin-right: 90px;
 }
 
 .logo__text--inverse {
@@ -133,6 +132,12 @@ img {
 
 .header {
   padding: 16px 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation__list {
