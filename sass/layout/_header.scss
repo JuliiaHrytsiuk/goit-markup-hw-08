@@ -10,6 +10,18 @@
   display: none;
 }
 
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.burger-icon {
+  width: 40px;
+  height: 40px;
+  fill: var(--main-text-color);
+}
+
 // .header {
 //   padding-top: 30px;
 //   padding-bottom: 30px;
