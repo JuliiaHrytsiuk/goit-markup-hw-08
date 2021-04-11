@@ -1,55 +1,6 @@
-// .feature {
-//   padding-top: var(--section-ptb);
-//   padding-bottom: var(--section-ptb);
-// }
-
-.feature-set {
-  margin: 60px 15px;
+.feature {
+  padding: 60px 15px;
 }
-
-// .feature-set {
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin-left: -30px;
-//   margin-top: -30px;
-// }
-
-// .feature-set__thumb {
-//   width: 270px;
-//   height: 120px;
-//   background-color: #f5f4fa;
-//   border-radius: 4px;
-//   margin-bottom: 30px;
-//   padding: 25px 100px;
-// }
-
-.feature-set__thumb {
-  width: 450px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  padding: 25px 190px;
-}
-
-// .feature-set__item {
-//   @media screen and (min-width: 320px) {
-//     max-width: 450px;
-//     // justify-items: center;
-//   }
-// }
-
-// @media screen and (min-width: 768px) and (max-width: 1199px) {
-//   width: calc((100% - 60px) / 2);
-//   margin: 15px;
-// }
-// @media screen and (min-width: 1200px) {
-//   width: calc((100% - 120px) / 4);
-//   &:not(:first-child) {
-//     margin-left: 30px;
-//   }
-//   }
-// }
 
 .feature-set__name {
   color: var(--main-text-color);
@@ -70,3 +21,54 @@
   letter-spacing: 0.03em;
   margin-bottom: 30px;
 }
+
+.feature-set__thumb {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding: 25px 190px;
+}
+
+// .feature {
+//   padding-top: var(--section-ptb);
+//   padding-bottom: var(--section-ptb);
+// }
+
+// .feature-set {
+//   padding-top: 60px;
+// }
+
+// .feature-set {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-left: -30px;
+//   margin-top: -30px;
+// }
+
+// .feature-set__thumb {
+//   width: 270px;
+//   height: 120px;
+//   background-color: #f5f4fa;
+//   border-radius: 4px;
+//   margin-bottom: 30px;
+//   padding: 25px 100px;
+// }
+
+// .feature-set__item {
+//   @media screen and (min-width: 320px) {
+//     max-width: 450px;
+//     // justify-items: center;
+//   }
+// }
+
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//   width: calc((100% - 60px) / 2);
+//   margin: 15px;
+// }
+// @media screen and (min-width: 1200px) {
+//   width: calc((100% - 120px) / 4);
+//   &:not(:first-child) {
+//     margin-left: 30px;
+//   }
+//   }
+// }
