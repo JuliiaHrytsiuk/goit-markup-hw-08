@@ -1,5 +1,5 @@
 .feature {
-  padding: 60px 15px;
+  padding: 60px 15px 30px;
 }
 
 .feature-set__name {
@@ -21,19 +21,18 @@
   letter-spacing: 0.03em;
 }
 
-.feature-set__text:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .feature-set__thumb {
   background-color: #f5f4fa;
   border-radius: 4px;
-  margin-bottom: 30px;
   text-align: center;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.feature-set__wrapper {
+  margin: 30px 0;
 }
 
 // .feature {
