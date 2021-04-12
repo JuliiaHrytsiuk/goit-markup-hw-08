@@ -1,5 +1,9 @@
 .header {
   padding: 16px 15px;
+
+  .contact-set {
+    display: none;
+  }
 }
 
 .navigation {
@@ -9,10 +13,6 @@
 }
 
 .navigation__list {
-  display: none;
-}
-
-.contact-set {
   display: none;
 }
 

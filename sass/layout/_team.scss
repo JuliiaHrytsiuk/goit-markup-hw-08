@@ -53,6 +53,12 @@
   margin-top: 16px;
 }
 
+.team-set__image {
+  @media screen and (min-width: 320px) {
+    width: 100%;
+  }
+}
+
 .social-network__icon {
   display: block;
 }
