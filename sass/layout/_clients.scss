@@ -29,22 +29,10 @@
 }
 
 .client-set {
-  @media screen and (min-width: 320px) {
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  @media screen and (min-width: 768px) {
-    max-width: 738px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    margin-top: var(--section-mrg);
-    flex-wrap: nowrap;
-    max-width: 1170px;
-  }
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .client-set__link {
@@ -60,13 +48,6 @@
   &:hover {
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
-  }
-
-  @media screen and (min-width: 768px) {
-    max-width: 226px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 170px;
   }
 }
 
