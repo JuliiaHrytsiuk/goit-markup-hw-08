@@ -4,22 +4,85 @@
   padding: 60px 15px;
 }
 
-// .footer {
-//   background: #2f303a;
-// }
-
-// .address {
-//   padding-top: 60px;
-//   padding-bottom: 60px;
-// }
-
 .footer-set__item:not(:last-child) {
   margin-bottom: 60px;
 }
 
-// .footer-set__item:not(:last-child) {
-//   margin-right: 70px;
-// }
+@media screen and (max-width: 767px) {
+  .subsciption__field {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .subsciption__field {
+    width: 450px;
+    margin: auto;
+  }
+
+  .footer-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-set__item {
+    margin: auto;
+  }
+
+  .footer-set__item:nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 0;
+    background: #2f303a;
+
+    .logo {
+      display: flex;
+    }
+  }
+
+  .footer-set {
+    display: flex;
+    align-items: center;
+  }
+
+  .address .contact-set .contact-set__item {
+    display: flex;
+  }
+
+  .footer-set__item:nth-child(2) {
+    margin: 0 auto 100px;
+  }
+
+  .footer-set__appeal {
+    display: flex;
+  }
+
+  .subsciption__field {
+    margin-left: 23px;
+    display: flex;
+    width: 358px;
+    margin-right: 12px;
+  }
+
+  .subsciption {
+    display: flex;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .footer-set__subscription {
+    display: flex;
+  }
+
+  .address {
+    padding-top: 60px;
+  }
+}
 
 .footer-invitation {
   display: flex;
@@ -57,11 +120,11 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  // &:focus,
-  // &:hover {
-  //   fill: var(--secondary-text-color);
-  //   background-color: var(--accent-color);
-  // }
+  &:focus,
+  &:hover {
+    fill: var(--secondary-text-color);
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-set__subscription {
@@ -76,47 +139,11 @@
   color: var(--secondary-text-color);
 }
 
-// .subsciption {
-//   text-align: center;
-// }
-
-@media screen and (max-width: 767px) {
-  .subsciption__field {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .subsciption__field {
-    width: 450px;
-    margin: auto;
-  }
-
-  .footer-set {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .footer-set__item {
-    margin: auto;
-  }
-
-  .footer-set__item:nth-child(2) {
-    margin-top: 0;
-  }
-}
-
 .subsciption__field {
-  // margin-left: 23px;
-  // display: flex;
-
   margin-bottom: 20px;
   padding: 15px 16px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  // width: 358px;
-  // margin-right: 12px;
   text-align: center;
 }
 
