@@ -1,5 +1,24 @@
-.feature {
-  padding: 60px 15px 30px;
+@media screen and (max-width: 767px) {
+  .feature {
+    padding: 60px 15px 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    padding: 60px 15px 60px;
+  }
+
+  .feature-set {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .feature-set__item {
+    width: calc((100% - 60px) / 2);
+    margin: auto;
+  }
 }
 
 .feature-set__name {
