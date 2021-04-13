@@ -189,49 +189,79 @@
     </section>
 
     <!-- GALLERY -->
-    <!-- <section class="gallery">
+    <section class="gallery">
       <div class="сontainer">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="gallery-set list">
           <li class="gallery-set__item">
-            <img
-              class="gallery__image"
-              src="./images/gallery/box_1.jpg"
-              alt="руки печатают текст"
-              width="370"
-              height="294"
-            />
+            <picture
+              ><source
+                srcset="
+                  ./images/gallery/img-desktop.webp    1x,
+                  ./images/gallery/img@2x-desktop.webp 2x
+                "
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                srcset="./images/gallery/img@2x-desktop.jpg 2x"
+                src="./images/gallery/img-desktop.jpg"
+                alt="руки печатают текст"
+                width="370"
+                height="294"
+              />
+            </picture>
             <div class="gallery-set__label">
               <p class="gallery-set__name">Десктопные приложения</p>
             </div>
           </li>
           <li class="gallery-set__item">
-            <img
-              class="gallery__image"
-              src="./images/gallery/box_2.jpg"
-              alt="руки держат телефон"
-              width="370"
-              height="294"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./images/gallery/img-1-desktop.webp    1x,
+                  ./images/gallery/img@2x-1-desktop.webp 2x
+                "
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                srcset="./images/gallery/img@2x-1-desktop.jpg 2x"
+                src="./images/gallery/img-1-desktop.jpg"
+                alt="руки держат телефон"
+                width="370"
+                height="294"
+              />
+            </picture>
             <div class="gallery-set__label">
               <p class="gallery-set__name">Мобильные приложения</p>
             </div>
           </li>
           <li class="gallery-set__item">
-            <img
-              class="gallery__image"
-              src="./images/gallery/box_3.jpg"
-              alt="руки держат планшет"
-              width="370"
-              height="294"
-            />
+            <picture>
+              <source
+                srcset="
+                  ./images/gallery/img-2-desktop.webp    1x,
+                  ./images/gallery/img@2x-2-desktop.webp 2x
+                "
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                srcset="./images/gallery/img@2x-2-desktop.jpg 2x"
+                src="./images/gallery/img-2-desktop.jpg"
+                alt="руки держат планшет"
+                width="370"
+                height="294"
+              />
+            </picture>
             <div class="gallery-set__label">
               <p class="gallery-set__name">Дизайнерские решения</p>
             </div>
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
 
     <!-- TEAM -->
     <section class="team">
