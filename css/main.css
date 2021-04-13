@@ -119,12 +119,6 @@ img {
   color: var(--secondary-text-color);
 }
 
-.contact-set {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
 .address .contact-set {
   display: block;
   margin-top: 20px;
@@ -181,8 +175,16 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header .contact-set {
-  display: none;
+@media screen and (max-width: 767px) {
+  .header .contact-set {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .contact-set {
+    display: block;
+  }
 }
 
 .navigation {
@@ -239,6 +241,18 @@ img {
   transform: translateY(0) translateX(-50%);
   opacity: 1;
   z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .navigation__list {
+    display: block;
+  }
 }
 
 .mobile-menu__link {

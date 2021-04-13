@@ -2,8 +2,16 @@
   padding: 16px 15px;
   border-bottom: 1px solid #ececec;
 
-  .contact-set {
-    display: none;
+  @media screen and (max-width: 767px) {
+    .contact-set {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .contact-set {
+      display: block;
+    }
   }
 }
 
@@ -61,6 +69,20 @@
   transform: translateY(0) translateX(-50%);
   opacity: 1;
   z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .navigation__list {
+    display: block;
+  }
 }
 
 .mobile-menu__link {
