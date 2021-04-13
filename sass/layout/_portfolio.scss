@@ -2,6 +2,30 @@
   padding: 60px 15px;
 }
 
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) {
+  .filter {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .portfolio-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+  }
+
+  .portfolio-set__item {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: auto;
+    margin-left: 15px;
+  }
+}
+
 // .portfolio {
 //   margin-top: 94px;
 // }
@@ -9,7 +33,6 @@
 .filter {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   margin-bottom: 30px;
 }
 
