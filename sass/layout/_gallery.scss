@@ -6,6 +6,12 @@
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .gallery {
+    display: none;
+  }
+}
+
 .gallery-set {
   display: flex;
   flex-wrap: wrap;

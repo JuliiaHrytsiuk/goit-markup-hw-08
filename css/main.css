@@ -466,7 +466,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .feature {
     padding-top: var(--section-ptb);
     padding-bottom: var(--section-ptb);
@@ -521,6 +521,12 @@ img {
 
 .gallery .title {
   margin-bottom: var(--section-mrg);
+}
+
+@media screen and (max-width: 1199px) {
+  .gallery {
+    display: none;
+  }
 }
 
 .gallery-set {
@@ -750,7 +756,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .team-set__item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
