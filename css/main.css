@@ -610,6 +610,8 @@ img {
   }
   .portfolio-set__item {
     flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -652,8 +654,6 @@ img {
 }
 
 .portfolio-set__item {
-  margin-left: 30px;
-  margin-top: 30px;
   position: relative;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
