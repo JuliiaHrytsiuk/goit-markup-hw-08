@@ -469,7 +469,6 @@ img {
 @media screen and (min-width: 1200px) {
   .feature {
     padding-top: var(--section-ptb);
-    padding-bottom: var(--section-ptb);
   }
   .feature-set {
     display: flex;
@@ -605,7 +604,6 @@ img {
 @media screen and (min-width: 1200px) {
   .portfolio-set {
     padding-top: 48px;
-    padding-bottom: var(--section-ptb);
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
